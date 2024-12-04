@@ -1,0 +1,203 @@
+/* Custom styles for owl carousel */
+
+.project-carousel-section{
+  position: relative;
+}
+
+.project-carousel-section .owl-nav button{
+  background: #ffffff!important;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.project-carousel-section .owl-nav i {
+  font-size: 16px!important;
+}
+
+.project-carousel-section .owl-dot, .testimonial-section  .owl-dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  background: #ffffff!important;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.project-carousel-section .owl-dot.active, .testimonial-section  .owl-dot.active {
+  height: 10px;
+  width: 10px;
+}
+
+.project-carousel-section .owl-nav .owl-prev{
+  position: absolute;
+  left: 50px;
+}
+
+.project-carousel-section .owl-nav .owl-next{
+  position: absolute;
+  right: 50px;
+}
+
+.project-carousel-section .owl-dots, .testimonial-section  .owl-dots{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+
+/* Custom style */
+
+.project_location {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+    height: 37px;
+}
+
+.pagination_item.disabled{
+  background: rgb(94 94 94 / 80%);
+  cursor: not-allowed;
+}
+
+.single_Project .address {
+  height: 50px;
+ overflow: hidden;
+ display: -webkit-box;
+ -webkit-line-clamp: 2;
+         line-clamp: 2; 
+ -webkit-box-orient: vertical;
+}
+
+@media (max-width: 576px){
+  .project-carousel-section .owl-dots{
+    bottom: -10px;
+    font-size: 16px!important;
+  }
+}
+
+/* Hero section update */
+
+.swiper-slide:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide:first-child::after{
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: rgba(0,0,0,.65); */
+}
+
+.slide-content .hero-text{
+  background: none;
+  border: 0;
+  animation: none;
+  position: initial;
+  z-index: 1;
+  line-height: 1;
+}
+
+.slide-content .hero-text ul{
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.slide-content .hero-text ul li{
+  list-style: none;
+  color: rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.5;
+}
+
+.slide-content .hero-text h1{
+  font-size: 250px;
+  animation: none;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  color: rgba(255,255,255,.5)!important;
+}
+
+.slide-content .hero-text h1:hover li:hover{
+  opacity: 1
+}
+
+.slide-content .hero-text h3{
+  animation: none;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.slide-content .hero-text h1 li:first-child{
+  background-position-x: 26%;
+  background-position-y: 38%;
+  transition: 0.4s all ease-in-out;
+}
+.slide-content .hero-text h1 li:nth-child(2){
+  background-position-x: 36.3%;
+  background-position-y: 42%;
+  transition: 0.4s all ease-in-out;
+}
+.slide-content .hero-text h1 li:nth-child(3){
+  background-position-x: 50%;
+  background-position-y: 42%;
+  transition: 0.4s all ease-in-out;
+}
+.slide-content .hero-text h1 li:nth-child(4){
+  background-position-x: 65%;
+  background-position-y: 42%;
+  transition: 0.4s all ease-in-out;
+}
+.slide-content .hero-text h1 li:nth-child(5){
+  background-position-x: 66%;
+  background-position-y: 42%;
+  transition: 0.4s all ease-in-out;
+}
+.slide-content .hero-text h1 li:nth-child(6){
+  background-position-x: 76%;
+  background-position-y: 38%;
+  transition: 0.4s all ease-in-out;
+}
+
+/* Hover */
+
+.slide-content .hero-text h1 li:first-child:hover{
+  background-position-x: 28%;
+  background-position-y: 40%
+}
+.slide-content .hero-text h1 li:nth-child(2):hover{
+  background-position-x: 38.3%;
+  background-position-y: 44%
+}
+.slide-content .hero-text h1 li:nth-child(3):hover{
+  background-position-x: 52%;
+  background-position-y: 44%
+}
+.slide-content .hero-text h1 li:nth-child(4):hover{
+  background-position-x: 67%;
+  background-position-y: 44%
+}
+.slide-content .hero-text h1 li:nth-child(5):hover{
+  background-position-x: 68%;
+  background-position-y: 44%
+}
+.slide-content .hero-text h1 li:nth-child(6):hover{
+  background-position-x: 78%;
+  background-position-y: 40%
+}

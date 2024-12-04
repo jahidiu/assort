@@ -1,0 +1,234 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        width: 140px !important;
+    }
+
+    .navbar-nav{
+        .nav-item{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background: white;
+
+            a{
+                text-align: center;
+            }
+        }
+    }
+
+    .sticky-btn {
+        left: 59%;
+    }
+
+        .comfortable {
+        margin-top: 270px;
+
+        .head {
+            text-align: center;
+            h3 {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        .text {
+            padding: 35px;
+        }
+    }
+
+    .wanted {
+        .space {
+            padding: 60px 30px 60px 30px;
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+
+    .contact-title {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .flist {
+        li {
+            text-align: center;
+            // margin-top: 15px !important;
+            // margin-bottom: 15px !important;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand {
+        width: 140px !important;
+    }
+
+    .comfortable {
+        margin-top: 270px;
+
+        .head {
+            text-align: center;
+            h3 {
+                font-size: 24px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .image {
+            img {
+                width: 100% !important;
+            }
+        }
+
+        .text {
+            padding: 35px;
+        }
+    }
+
+    .hprojects,
+    .rsell {
+        .project {
+            min-height: 240px !important;
+        }
+    }
+
+    .wanted {
+        .space {
+            padding: 60px 30px 60px 30px;
+            text-align: center;
+        }
+    }
+
+
+    .contact-title {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .flist {
+        li {
+            text-align: center;
+            // margin-top: 15px !important;
+            // margin-bottom: 15px !important;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand {
+        width: 190px !important;
+    }
+
+    .comfortable {
+        margin-top: 270px;
+
+        .head {
+            text-align: center;
+            h3 {
+                font-size: 24px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .image {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .hprojects,
+    .rsell {
+        .project {
+            min-height: 240px !important;
+        }
+    }
+
+    .wanted {
+        .space {
+            padding: 60px 30px 60px 30px;
+            text-align: center;
+        }
+    }
+
+
+    .contact-title {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .flist {
+        li {
+            text-align: center;
+            // margin-top: 15px !important;
+            // margin-bottom: 15px !important;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand {
+        width: 190px !important;
+    }
+
+    .comfortable {
+        margin-top: 270px;
+
+        .head {
+            text-align: center;
+        }
+
+        .image {
+            width: 100% !important;
+            height: 100% !important;
+
+            img {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+
+    .hprojects,
+    .rsell {
+        .project {
+            min-height: 240px !important;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+    .container{
+        max-width: 1180px;
+    }
+
+    .navbar-brand {
+        width: 190px !important;
+    }
+
+    .comfortable {
+        .image {
+            width: 100% !important;
+            height: 100% !important;
+
+            img {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+}
